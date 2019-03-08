@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jaymardaligdig.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logs"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logs"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".musicPlayer" />
+
+        <activity android:name=".home" />
+        <activity android:name=".player_info" />
+        <activity android:name=".category" />
+        <activity android:name=".dificulty" />
+        <activity android:name=".startGame" />
+        <activity android:name=".startGame2" />
+        <activity android:name=".startGame3" />
+        <activity android:name=".score" />
+        <activity android:name=".settings" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".instruction"></activity>
+    </application>
+
+</manifest>
